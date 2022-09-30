@@ -1,0 +1,40 @@
+Exercice 1
+-Faire un clone du depôt git distant
+-Quelles sont les branches disponibles ?
+branch disponible :gh-pages
+
+Exercice 2
+-Quel est le numéro de la dernière pull request ?
+#1028
+
+-Combien de commit contient la pull request #550 ?
+2
+
+-Quel est le numéro, combien de commit, et quel est l’auteur dans la pull request du
+commit de merge 8061f2f ?
+Numéro: #549
+Nombre de commit: 2
+Auteur: Josh Soref
+
+Exercice 3
+-Quelle est la commande pour revenir à la version précédente sur le fichier “index.html” ?
+git revert
+
+-Un plugin javascript a été supprimé dans le
+commit b30306e502b99aabab256a5d2f68e8d50ba5072a, quel est le nom du plugin
+supprimé ?
+auto-complete.min.js
+
+-Quelle est la commande pour voir les fichiers modifiés dans ce commit ?
+git diff b30306e502b99aabab256a5d2f68e8d50ba5072a
+
+-Quelle est la commande pour récupérer le plugin supprimé ?
+git reset auto-complete.min.js
+
+Exercice 4
+-Le dossier “_licenses” contient les licences qui sont affichées sur le site. Vous allez ajouter
+une license à votre nom (par exemple “theau-debureau-1.0.txt”) et commiter le résultat.
+-Comment vérifier si vous êtes à jour avec le dépôt distant?
+git status
+-Envoyer votre dernier commit
+git push
