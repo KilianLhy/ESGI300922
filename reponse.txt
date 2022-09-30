@@ -18,7 +18,7 @@ Auteur: Josh Soref
 
 Exercice 3
 -Quelle est la commande pour revenir à la version précédente sur le fichier “index.html” ?
-git revert
+git checkout HEAD~1 index.html
 
 -Un plugin javascript a été supprimé dans le
 commit b30306e502b99aabab256a5d2f68e8d50ba5072a, quel est le nom du plugin
