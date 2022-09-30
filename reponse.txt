@@ -36,5 +36,6 @@ Exercice 4
 une license à votre nom (par exemple “theau-debureau-1.0.txt”) et commiter le résultat.
 -Comment vérifier si vous êtes à jour avec le dépôt distant?
 git status
+
 -Envoyer votre dernier commit
 git push
